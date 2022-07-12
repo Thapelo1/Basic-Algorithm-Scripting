@@ -1,5 +1,9 @@
-    function reverseString(str) {
-        return str.split("").reverse().join("");
+function factorialize(num) {
+    let product = 1;
+    for (let i = 2; i <= num; i++) {
+      product *= i;
     }
-    
-    console.log(reverseString("hello")); // Should print olleh
+    return product;
+  }
+  
+  factorialize(5);
